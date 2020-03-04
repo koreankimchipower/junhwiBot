@@ -47,4 +47,4 @@ async def on_message(message):
             data_list.append(i.get_text().replace('\n', '').replace(' ', ''))
         await message.channel.send("확진자 " + data_list[0] + "\n격리해제 " + data_list[1] + "\n검사 진행 " + data_list[2] + "\n사망자 " + data_list[3])
 
-client.run("Njg0Mzc4MjQ5OTgzNDI2NTgx.Xl5jiw.gZsGh21bUQ9epWmT_OHvioGZ3Vw")
+client.run("Njg0Mzc4MjQ5OTgzNDI2NTgx.Xl9bRA.zA4cpioJDGweAh750f2TRykecF4")
